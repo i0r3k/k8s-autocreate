@@ -72,7 +72,7 @@ systemctl restart docker
 #	docker rmi registry.cn-hangzhou.aliyuncs.com/accenture_ctag/$imageName
 #done
 
-export KUBE_REPO_PREFIX=ctagk8s
+export KUBE_REPO_PREFIX="registry.cn-beijing.aliyuncs.com/bbt_k8s"
 
 ##Initialize master by kubeadm, TODO: Get join command text from output of below command
 ##--pod-network-cidr parameter is specified in flannel.yaml as next setp for installing pod network
